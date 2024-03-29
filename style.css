@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.header{
+    display: flex;
+    background-color: #dddfda;
+    justify-content: center;
+}
+.main h5{
+    color: #112561;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.qr{
+    display: flex;
+    justify-content: center;
+
+}
+.info-bank{
+   text-align: center;
+display: flex;
+justify-content: center;
+   
+}
+table tr td{
+    padding: 15px;
+    color: #112561;
+    text-align: start;
+    font-weight: 600;
+}
+.btn-checked{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.btn-checked button{
+    background-color:  #112561;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+}
+/* Tùy chỉnh bảng */
+table {
+    border-collapse: collapse;
+   
+}
+
+td {
+   
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Tùy chỉnh nút copy */
+.copy-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.copy-btn img {
+    width: 20px; /* Điều chỉnh kích thước của icon */
+    transition: transform 0.2s ease; /* Thêm hiệu ứng khi hover */
+}
+
+.copy-btn:hover img {
+    transform: scale(1.2); /* Khi hover vào, icon sẽ phóng to */
+}
+
+/* Tùy chỉnh để tránh nút bị outline khi click */
+.copy-btn:focus {
+    outline: none;
+}
+
+/* Thêm một số tùy chỉnh khác nếu bạn muốn */
